@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">云边拨号器</string>
+
+    <string name="contacts">联系人</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="small">小</string>
+    <string name="medium">中</string>
+    <string name="large">大</string>
+    <string name="sure">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="des_call_button">拨打按钮</string>
+    <string name="des_select_all_button">选择所有联系人按钮</string>
+    <string name="des_export_all_button">导入联系人按钮</string>
+    <string name="import_contacts">导入联系人</string>
+
+    <string name="text_size_setting">设置字体大小</string>
+    <string name="restart_title">重启应用</string>
+    <string name="restart_message">应用将会重启以更改字体大小</string>
+    <string name="tips">The new font will be apply at next time.</string>
+    <string name="change_font_size">字体大小</string>
+</resources>

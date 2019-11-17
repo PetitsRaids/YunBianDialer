@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_contacts_list"
+    app:startDestination="@id/contactsFragment">
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.petitsraids.yunbiandialer.view.fragment.ContactsFragment"
+        android:label="@string/contacts">
+        <action
+            android:id="@+id/action_contactsFragment_to_settingsFragment"
+            app:destination="@+id/settingsFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_contactsFragment_to_importFragment"
+            app:destination="@id/importFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.petitsraids.yunbiandialer.view.fragment.SettingsFragment"
+        android:label="@string/settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_fontSizeChangeFragment"
+            app:destination="@id/fontSizeChangeFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/importFragment"
+        android:name="com.petitsraids.yunbiandialer.view.fragment.ImportFragment"
+        android:label="@string/import_contacts" />
+    <fragment
+        android:id="@+id/fontSizeChangeFragment"
+        android:name="com.petitsraids.yunbiandialer.view.fragment.FontSizeChangeFragment"
+        android:label="@string/change_font_size" />
+</navigation>
