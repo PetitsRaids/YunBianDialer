@@ -21,4 +21,6 @@
     <string name="tips">The new font will be apply at next time.</string>
     <string name="change_font_size">Change Font Size</string>
     <string name="enter_settings_item">enter_to_settings_image</string>
+    <string name="permission_granted">Granted Permission</string>
+    <string name="permission_denied">Denied Permission</string>
 </resources>

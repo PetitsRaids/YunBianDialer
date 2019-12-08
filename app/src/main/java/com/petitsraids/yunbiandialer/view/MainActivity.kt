@@ -112,9 +112,9 @@ class MainActivity : AppCompatActivity() {
     ) {
         if (requestCode == MyUtils.REQUEST_CODE_CALL) {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(applicationContext, "Granted Permission", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, R.string.permission_granted, Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(applicationContext, "Denied Permission", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, R.string.permission_denied, Toast.LENGTH_SHORT).show()
             }
         }
     }

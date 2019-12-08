@@ -19,6 +19,9 @@
     <string name="text_size_setting">设置字体大小</string>
     <string name="restart_title">重启应用</string>
     <string name="restart_message">应用将会重启以更改字体大小</string>
-    <string name="tips">The new font will be apply at next time.</string>
+    <string name="tips">字体大小已保存，下次启动时生效</string>
     <string name="change_font_size">字体大小</string>
+    <string name="enter_settings_item">enter_to_settings_image</string>
+    <string name="permission_granted">已授权</string>
+    <string name="permission_denied">已拒绝</string>
 </resources>
